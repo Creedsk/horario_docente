@@ -30,12 +30,71 @@ public class DocenteEntity implements Serializable {
 	private String cpf;
 	
 	@Column(name = "email")
-	private String name;
-	
-	
-	
-	
+	private String email;
+
+	public String getIdDocente() {
+		return idDocente;
+	}
+
+	public void setIdDocente(String idDocente) {
+		this.idDocente = idDocente;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	
 	
 
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

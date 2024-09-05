@@ -18,7 +18,9 @@ public class DocenteEntity implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_docente")
-	private String idDocente;
+	private Long idDocente;
+	
+	
 	
 	@Column(name = "nome")
 	private String nome;
@@ -32,11 +34,11 @@ public class DocenteEntity implements Serializable {
 	@Column(name = "email")
 	private String email;
 
-	public String getIdDocente() {
+	public long getIdDocente() {
 		return idDocente;
 	}
 
-	public void setIdDocente(String idDocente) {
+	public void setIdDocente(Long idDocente) {
 		this.idDocente = idDocente;
 	}
 
